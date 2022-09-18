@@ -1,0 +1,250 @@
+:root {
+	--main-color: #212121;
+	--brand-color: #2196f3;
+	--text-color: #757575;
+	--additional-color: #ffffff;
+	--header-logo-color: #000000;
+	--button-color: #f5f4fa;
+}
+
+/* Загальні стилі */
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--main-color);
+	letter-spacing: 0.03em;
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.list > li {
+	list-style: none;
+}
+
+/* Усі кнопки */
+.button {
+	cursor: pointer;
+}
+
+/* Заголовок секцій H2 */
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+
+	color: var(--main-color);
+}
+
+/* Шапка */
+.page-header {
+}
+
+.logo-header {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+
+	color: var(--header-logo-color);
+}
+.logo-start {
+	color: var(--brand-color);
+}
+
+/* Навігація */
+.nav {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.nav-list {
+}
+.nav-link {
+	color: var(--main-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+	color: var(--brand-color);
+}
+.current {
+	color: var(--brand-color);
+}
+
+/* Контакти */
+.contact-list {
+}
+.contact-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+	color: var(--brand-color);
+}
+
+/* Головна секція */
+.hero {
+	background: #2f303a;
+}
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+
+	color: var(--additional-color);
+}
+.hero-button {
+	background: var(--brand-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+
+	letter-spacing: 0.06em;
+
+	color: var(--additional-color);
+}
+
+/* Наші переваги */
+.advantages {
+}
+.advantages-list {
+}
+.advantages-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+
+	color: var(--main-color);
+}
+.advantages-text {
+	font-size: 14px;
+	line-height: 1.71;
+
+	color: var(--text-color);
+}
+
+/* Чим ми займаємося */
+.work {
+}
+.work-title {
+}
+.work-list {
+}
+
+/* Наша команда */
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-subtitle {
+	font-weight: 500;
+	line-height: 1.19;
+
+	text-align: center;
+
+	color: var(--main-color);
+}
+.team-text {
+	line-height: 1.19;
+
+	text-align: center;
+
+	color: var(--text-color);
+}
+
+/* Портфоліо */
+.portfolio {
+}
+.filter-list {
+}
+.filter-list .filter-button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 500;
+	line-height: 1.62;
+	letter-spacing: inherit;
+
+	color: var(--main-color);
+
+	background: var(--button-color);
+}
+.filter-button.active {
+	font-weight: 500;
+	line-height: 1.62;
+
+	color: var(--additional-color);
+
+	background: var(--brand-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+	color: var(--additional-color);
+
+	background: var(--brand-color);
+}
+.portfolio-list {
+}
+.portfolio-link {
+}
+.portfolio-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+
+	letter-spacing: 0.06em;
+
+	color: var(--main-color);
+}
+.portfolio-text {
+	line-height: 1.88;
+
+	color: var(--text-color);
+}
+
+/* Підвал сторінки */
+.page-footer {
+	background: #2f303a;
+}
+.logo-footer {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+
+	color: var(--additional-color);
+}
+.address {
+	font-style: normal;
+}
+.address-list {
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+.address-map {
+	color: var(--additional-color);
+}
+.address-link {
+	color: rgba(255, 255, 255, 0.6);
+}
+.address-map:hover,
+.address-map:focus,
+.address-link:hover,
+.address-link:focus {
+	color: var(--brand-color);
+}
