@@ -227,7 +227,7 @@ img {
 	padding-top: 0px;
 }
 .work-title {
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 .work-list {
 	display: flex;
@@ -259,6 +259,7 @@ img {
 .team-subtitle {
 	margin-top: 30px;
 
+	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.19;
 
@@ -354,11 +355,11 @@ img {
 
 /* Підвал сторінки */
 .page-footer {
-	background: #2f303a;
-}
-.footer-container {
+	background: var(--hero-bg-color);
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+.footer-container {
 }
 .logo-footer {
 	display: block;
